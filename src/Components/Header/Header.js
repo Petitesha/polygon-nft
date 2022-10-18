@@ -5,7 +5,7 @@ import search from '../../Assets/Images/search.svg';
 
 const Header = () => {
     return(
-        <div className='w-full m-0 p-0 box-border'>
+        <div className='w-full m-0 p-0'>
           <div className='w-5/6 m-auto flex justify-between items-center'>
             <div className='flex justify-center items-center'>
                 <img src={polygon} alt="POLYGON-LOGO" className='mr-2.5'/>    
@@ -33,11 +33,11 @@ const Header = () => {
                 <div className='mr-24'>
                     <img src={search} alt="search-icon" />
                 </div>
-                <div className='border-2 border-solid border-gray-900  mb-5 ml-5'>
-                    {/* <button className='flex items-center bg-header-100 py-3.5 px-6 rounded-tl-lg rounded-br-lg '>
+                <div className='border-gray-900  mb-5 ml-5'>
+                    <button className='flex items-center bg-header-100 py-3.5 px-6 rounded-tl-lg rounded-br-lg '>
                         <span className='text-white mr-2'>Connect Wallet</span>
                         <img src={polygon} alt="POLYGON-LOGO" />
-                    </button>   */}
+                    </button>  
                 </div>
             </div>
           </div>
