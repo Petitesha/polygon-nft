@@ -6,23 +6,23 @@
 
 const Explore = () => {
     return(
-        <div className="w-5/6 mt-7">
+        <div className="w-5/6 m-auto pt-7">
             <h4 className='font-circular font-medium text-header-300 text-300 text-center mb-2'>Explore Marketplace</h4>
-            <div className='flex justify-between items-cente'>
-                <div className='w-2/12 h-2.5 bg-Art bg-no-repeat bg-cover'>
-                    <h3>Art</h3>
+            <div className=' flex justify-between items-center'>
+                <div className='w-52 h-32 bg-Art bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
+                    <h3 className="text-header-400 text-300 ">Art</h3>
                 </div>
-                <div className='w-2/12 h-2.5 bg-Sports bg-no-repeat bg-cover'>
-                    <h3>Sports</h3>
+                <div className='w-52 h-32 bg-Sports bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
+                    <h3 className="text-header-400 text-300">Sports</h3>
                 </div>
-                <div className='w-2/12 h-2.5 bg-Music bg-no-repeat bg-cover'>
-                    <h3>Music</h3>
+                <div className='w-52 h-32 bg-Music bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
+                    <h3 className="text-header-400 text-300">Music</h3>
                 </div>
-                <div className='w-2/12 h-2.5 bg-Videos bg-no-repeat bg-cover'>
-                    <h3>Videos</h3>
+                <div className='w-52 h-32 bg-Videos bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
+                    <h3 className="text-header-400 text-300">Videos</h3>
                 </div>
-                <div className='w-2/12 h-2.5 bg-More bg-no-repeat bg-cover'>
-                    <h3>More</h3>
+                <div className='w-52 h-32 bg-More bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
+                    <h3 className="text-header-400 text-300">More</h3>
                 </div>
             </div>
         </div>

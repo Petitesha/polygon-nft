@@ -16,6 +16,7 @@ module.exports = {
         200: '48px',
         300: '36px',
         400: '14px',
+        600: '1px',
     },
     fontFamily: {
       'coda': 'Coda, cursive',
@@ -28,6 +29,7 @@ module.exports = {
         'Music': "url('/src/Assets/Images/Music.png')",
         'Videos': "url('/src/Assets/Images/Videos.png')",
         'More': "url('/src/Assets/Images/More.png')",
+        'overlay': 'linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))',
       },
     },
   },
