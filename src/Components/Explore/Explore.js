@@ -6,7 +6,7 @@
 
 const Explore = () => {
     return(
-        <div className="w-5/6 m-auto pt-7">
+        <div className="w-5/6 m-auto py-9">
             <h4 className='font-circular font-medium text-header-300 text-300 text-center mb-2'>Explore Marketplace</h4>
             <div className=' flex justify-between items-center'>
                 <div className='w-52 h-32 bg-Art bg-no-repeat bg-cover flex justify-center items-center rounded-br-lg hover:blur-[1px]'>
