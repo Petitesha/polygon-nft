@@ -3,7 +3,7 @@ import Sales from '../Sales/Sales';
 import Sponsors from '../Sponsors/Sponsors';
 import How from '../How/How';
 import Explore from '../Explore/Explore';
-import Card from '../Card/Card';
+import Cards from '../Cards/Cards';
 
 const Main = () => {
     return(
@@ -13,7 +13,7 @@ const Main = () => {
             <Sponsors />
             <How />
             <Explore />
-            <Card />
+            <Cards />
         </div>
     )
 }
