@@ -31,6 +31,9 @@ module.exports = {
         'More': "url('/src/Assets/Images/More.png')",
         'overlay': 'linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))',
       },
+      gridTemplateColumns: {
+        '16': ' repeat(auto-fill, minmax(261px, 4fr))',
+      },
     },
   },
   plugins: [],

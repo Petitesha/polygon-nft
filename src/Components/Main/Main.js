@@ -4,6 +4,7 @@ import Sponsors from '../Sponsors/Sponsors';
 import How from '../How/How';
 import Explore from '../Explore/Explore';
 import Cards from '../Cards/Cards';
+import Collectors from '../Collectors/Collectors'
 
 const Main = () => {
     return(
@@ -14,6 +15,7 @@ const Main = () => {
             <How />
             <Explore />
             <Cards />
+            <Collectors />
         </div>
     )
 }
