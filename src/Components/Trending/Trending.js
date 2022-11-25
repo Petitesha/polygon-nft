@@ -9,11 +9,11 @@ const Trending = () => {
                     <p className='w-3/4 m-auto text-100 text-header-500 font-normal font-circular text-center pb-5'>Start with the least complex and most secure stage to buy and trade progressed workmanships and NFT’s. Be a part of the most popular premium arts.</p>
                 </div>
                 <div className="bg-header-100 ">
-                    <div className="p-10">
-                        <div className="w-50 h-50 bg-Hot bg-no-repeat ">
+                    <div className="p-10 flex justify-between items-center">
+                        <div className="w-100 h-100 bg-Hot bg-no-repeat bg-cover">
                             <div className='flex justify-between items-center'>
-                                <div>
-                                    <img className='rotate-90' src={Avatar} alt='Avatar' />
+                                <div className='pr-10'>
+                                    <img className='rotate-90 w-5 h-15' src={Avatar} alt='Avatar' />
                                 </div>
                                 <div>
                                     <p>Time Remaining</p>
