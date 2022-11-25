@@ -29,6 +29,7 @@ module.exports = {
         'Music': "url('/src/Assets/Images/Music.png')",
         'Videos': "url('/src/Assets/Images/Videos.png')",
         'More': "url('/src/Assets/Images/More.png')",
+        'Hot': "url('/src/Assets/Images/Hot.png')",
         'overlay': 'linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))',
       },
       gridTemplateColumns: {
